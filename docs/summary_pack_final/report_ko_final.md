@@ -111,7 +111,7 @@ flowchart LR
 | TVSum | 50 | 0.2042 | 0.6736 | `summary selection consensus`가 비교적 강합니다. |
 | SumMe | 25 | 0.2126 | 0.4143 | 사용자별 정답 요약의 주관성이 더 큽니다. |
 
-![annotator_consistency](/figures/annotator_consistency.png)
+![annotator_consistency](./figures/annotator_consistency.png)
 
 해석:
 - `TVSum`과 `SumMe` 모두 `frame-level agreement`는 아주 높지 않습니다.
@@ -129,7 +129,7 @@ flowchart LR
 | SumMe `average` | 30.95 | 30.95 |
 | SumMe `max` | 73.22 | 73.22 |
 
-![final_protocol_summary](/figures/final_protocol_summary.png)
+![final_protocol_summary](./figures/final_protocol_summary.png)
 
 핵심 해석:
 - `TVSum`은 `PySceneDetect ContentDetector fallback`을 넣고 `mean_curve` 기준으로 재평가했을 때 `53.64`까지 올라갔습니다.
@@ -158,7 +158,7 @@ flowchart LR
 | SumMe | mid (max) | 14 | 0.6510 | -0.0217 | -0.0253 |
 | SumMe | hard (max) | 5 | 0.9060 | 0.0329 | 0.0440 |
 
-![difficulty_split_f1](/figures/difficulty_split_f1.png)
+![difficulty_split_f1](./figures/difficulty_split_f1.png)
 
 해석:
 - `clean`이라고 해서 항상 모델 성능이 높아지는 것은 아닙니다.
@@ -182,7 +182,7 @@ flowchart LR
 | zero-shot | CAPLS | 2025 | 57.58 | 63.05 |
 | zero-shot | Our pipeline | 2026 | 73.22 | 53.64 |
 
-![final_paper_comparison](/figures/final_paper_comparison.png)
+![final_paper_comparison](./figures/final_paper_comparison.png)
 
 해석:
 - `SumMe max`만 보면 우리 수치는 매우 높게 보입니다.
